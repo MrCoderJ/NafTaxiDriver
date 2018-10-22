@@ -1,0 +1,117 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:layout_marginBottom">60dp</item>
+        <item name="android:colorBackground">#fff</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/cardview_light_background</item>
+    </style>
+
+    <style name="ContextMenuButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:textColor">#333</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="ToolbarStyle">
+        <item name="android:colorBackground">#fff</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:elevation" tools:targetApi="21">20dp</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowMinWidthMajor">@dimen/ninety_percent</item>
+        <item name="android:windowMinWidthMinor">@dimen/ninety_percent</item>
+        <item name="android:layout_height">@dimen/ninety_percent</item>
+        <item name="android:popupEnterTransition" tools:targetApi="24">
+            @android:anim/bounce_interpolator
+        </item><!--
+        <item name="android:popupExitTransition" tools:targetApi="24">@anim/slide_up</item>-->
+        <item name="android:buttonBarPositiveButtonStyle" tools:targetApi="21">
+            @style/PositiveButtonTheme
+        </item>
+    </style>
+
+    <style name="LoginDialogTheme" parent="DialogTheme">
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="ProgressDialog" parent="DialogTheme"></style>
+
+    <item name="ninety_percent" type="dimen">90%</item>
+
+    <style name="PositiveButtonTheme">
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:elevation" tools:targetApi="21">20dp</item>
+    </style>
+    <!--<style name="SplashTheme">
+        <item name="android:background">@drawable/splash_background</item>
+    </style>-->
+
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
+
+    </style>
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="tv_normal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">worksans_regular</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/normalText_sp_14</item>
+    </style>
+
+    <style name="tv_small" parent="tv_normal">
+        <item name="android:textSize">@dimen/smallText_sp_12</item>
+    </style>
+
+    <style name="tv_header" parent="tv_normal">
+        <item name="android:textSize">@dimen/subHeader_sp_16</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:fontFamily">worksans_semibold</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+</resources>

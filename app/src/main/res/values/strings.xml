@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">NEFtaxi Driver</string>
+    <string-array name="phone_code">
+        <item>NIGERIA    +234</item>
+        <item>+213 ALGERIA</item>
+        <item>+1 AMERICA SAMOA</item>
+        <item>+376 ANDORA</item>
+        <item>+376 ANGOLA</item>
+        <item>+229 BENIN</item>
+    </string-array>
+
+    <string-array name="City">
+        <item>Lagos</item>
+        <item>Abia</item>
+        <item>Abuja</item>
+        <item>Imo</item>
+        <item>Enugu</item>
+        <item>Ebonyi</item>
+        <item>Yobe</item>
+        <item>Ibadan</item>
+        <item>Osun</item>
+        <item>Taraba</item>
+        <item>Jigawa</item>
+    </string-array>
+    <string-array name="year">
+        <item>2018</item>
+        <item>2017</item>
+        <item>2016</item>
+        <item>2015</item>
+        <item>2014</item>
+        <item>2013</item>
+        <item>2012</item>
+        <item>2012</item>
+        <item>2011</item>
+        <item>2010</item>
+        <item>2009</item>
+        <item>2008</item>
+        <item>2007</item>
+        <item>2006</item>
+        <item>2005</item>
+        <item>2004</item>
+        <item>2003</item>
+        <item>2002</item>
+        <item>2001</item>
+        <item>2000</item>
+        <item>1999</item>
+        <item>1998</item>
+    </string-array>
+    <string-array name="car_manufacturer">
+        <item>BMW</item>
+        <item>FORD</item>
+        <item>Toyota</item>
+        <item>Honda</item>
+        <item>Hyndia</item>
+        <item>Volskage</item>
+        <item>Mercxeedes</item>
+        <item>KIA</item>
+        <item>Range Rovers</item>
+
+    </string-array>
+    <string-array name="Language">
+        <item>English, America</item>
+        <item>English, UK</item>
+        <item> German</item>
+        <item>Hindi</item>
+        <item>Philipinees</item>
+
+    </string-array>
+    <string name="cancel">Cancel</string>
+    <string name="accept_ride">Accept ride</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>

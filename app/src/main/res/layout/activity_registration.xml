@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/step_three" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.elisha.naftaxidriver.RegistrationActivity">
+
+    <RelativeLayout
+        android:id="@+id/step_one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="360dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="650dp"
+            android:layout_marginLeft="42dp"
+            android:layout_centerHorizontal="true"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="13dp">
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="serif"
+            android:gravity="center_horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="30dp"
+            android:text="Personal Information and Cars Details"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="60dp"
+            android:text="First Name"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+
+        <EditText
+            android:id="@+id/input_email"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/save_button"
+            android:hint="First Name"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColorHint="@color/colorPrimary"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="125dp"
+            android:text="Last Name"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+
+
+        <EditText
+            android:id="@+id/input_lastName"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/save_button"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:hint="Last Name"
+            android:textColorHint="@color/colorPrimary"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="200dp"
+            android:text="Language"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <Spinner
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="230dp"
+            android:background="@drawable/save_button"
+            android:entries="@array/Language" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="280dp"
+                android:text="Car Manufacutrer"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="300dp"
+                android:background="@drawable/save_button"
+                android:entries="@array/car_manufacturer" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="350dp"
+                android:text="Car Year"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="370dp"
+                android:background="@drawable/save_button"
+                android:entries="@array/year" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="420dp"
+                android:text="License Plate"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+
+
+            <EditText
+                android:id="@+id/license_plate"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="440dp"
+                android:background="@drawable/save_button"
+                android:inputType="text"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:hint="License Plate"
+                android:textColorHint="@color/colorPrimary"/>
+
+            <Button
+            android:onClick="getARide"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="500dp"
+            android:background="@drawable/button_round"
+            android:text="NEXT"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="590dp"
+            android:fontFamily="sans-serif"
+            android:text="By singing Up, you accept our Terms of Services and Privacy Policy "
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+    </RelativeLayout>
+    </ScrollView>
+    </RelativeLayout>
+
+    </RelativeLayout>

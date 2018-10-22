@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:shape="oval"
+    android:tint="#f5c022"
+    android:visible="true"
+    android:dither="true"
+    android:thickness="12dp"
+
+    >
+
+
+    <stroke
+        android:dashGap="26dp"
+        android:dashWidth="26dp"
+        ></stroke>
+
+</shape>

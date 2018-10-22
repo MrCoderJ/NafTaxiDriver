@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f5c022</color>
+    <color name="colorPrimaryDark">#d8ba13</color>
+    <color name="colorAccent">#b8aa12</color>
+    <color name="white">#fff</color>
+    <color name="text_color">#000</color>
+    <color name="sea_green_color">#50E3C2</color>
+    <color name="sea_green_color_ring">#FF50E3C2</color>
+    <color name="error_color">#E36650</color>
+    <color name="grey">#9B9B9B</color>
+    <color name="green">#00C94B</color>
+    <color name="grey_background">#E5EBF0F8</color>
+    <color name="grey_user_panel_background">#F9FAFC</color>
+    <color name="grey_user_panel_text">#ABB4BE</color>
+    <color name="grey_divider">#45ABB4BE</color>
+
+</resources>
